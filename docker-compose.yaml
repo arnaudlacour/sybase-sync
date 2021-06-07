@@ -67,7 +67,7 @@ services:
       - pingnet
 
   sybase:
-    image: datgrip/sybase:16.0
+    image: datagrip/sybase:16.0
     ports:
       - "5000:5000"
     networks:
