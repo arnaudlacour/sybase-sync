@@ -4,6 +4,6 @@ Demonstrate synchronization of data from a Sybase JDBC source and enrich the dat
 
 ## How to use
 ```
-curl -O https://raw.githubusercontent.com/arnaudlacour/sybase-sync/master/docker-compose.yaml
+curl -O https://raw.githubusercontent.com/arnaudlacour/sybase-sync/main/docker-compose.yaml
 docker-compose up -d
 ```
