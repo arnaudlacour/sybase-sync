@@ -46,11 +46,11 @@ services:
       nofile:
         soft: 65535
         hard: 65535
-        mem_limit: 512m
-        memswap_limit: 512m
-        oom_kill_disable: true
-        mem_swappiness: 0
-        tmpfs: /run/secrets    
+    mem_limit: 512m
+    memswap_limit: 512m
+    oom_kill_disable: true
+    mem_swappiness: 0
+    tmpfs: /run/secrets    
     ports:
       - "2636:1636"
       - "2443:1443"
